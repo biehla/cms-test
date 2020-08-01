@@ -1,0 +1,28 @@
+{
+  "name": "mmrt-site",
+  "version": "1.2.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "dependencies": {
+    "eleventy-plugin-lazyimages": "^2.0.1",
+    "eleventy-plugin-typeset": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biehla/cms-test.git"
+  },
+  "author": "Anand Biehl",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/biehla/cms-test/issues"
+  },
+  "homepage": "https://github.com/biehla/cms-test#readme"
+}
