@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{ summary }}">
+	
+	<link rel="icon" type="image/svg" href="/img/misc/MMRLogo.svg" />
+
+	<!-- <link rel="stylesheet" href="/css/normalize.css"> -->
+	<!-- <link rel="stylesheet" href="/css/skeleton.css"> -->
+	<link rel="stylesheet" href="/css/css.css">
+
+	{% if releaseMode.mode -%}
+		<script src="/js/live.js"></script>
+	{%- endif %}
+
+	{% if title != "Home" -%}
+		<title>Mars At Mac | {{ title }}</title>
+	{%- else -%}
+		<title>Mars At Mac</title>
+	{%- endif %}
+</head>
+
+<header>
+	<nav class="navbar">
+		<ol class="row">
+			<li class="logo one-third column"><a href="/"><img src="/img/misc/MMRlogo.svg" alt="McMaster Mars Rover Team Homepage"></a></li>
+			{% for post in collections.all -%}
+				<li class="two columns"><a href="{{ post.url | url }}" {% if post.url == post.url -%} aria-current="page" {%- endif %}>{{ post.data.title | upper }}</a></li>
+			{%- endfor %}
+		</ol>
+	</nav>
+	<hr>
+</header>
+
+<body>
+	<main>
+		{{ content | safe }}
+	</main>
+</body>
+
+<footer>
+	<hr>
+	<b>Questions / Contact Us</b>
+	<p>Contact us here: <a href="mailto:macrover@gmail.com">macrover@gmail.com</a></p>
+</footer>
+</html>

@@ -1,0 +1,82 @@
+html {
+	margin: 2em auto;
+	max-width: 80vw; /*650px;*/
+	line-height: 1.3;
+	/*font-size: 1em;*/
+	padding: 0 0.625em;
+	/*background-color: #f8f8f8;*/
+	color: #343434;
+}
+
+/*a {
+	color: ;
+}
+*/
+p body h1 h2 h3 h4 {
+    font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.sponsLogo {
+	margin-bottom: 4%;
+	width: auto;
+	max-width: 100%;
+	max-height: 25vh;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.logo {
+	height: auto;
+	max-height: 1.5em;
+	width: auto;
+	max-width: 1.5em;
+}
+
+.columns {
+	margin-bottom: 4%;
+}
+
+.active {
+	color: #343434;
+}
+
+
+[aria-current] {
+	color: #343434;
+}
+
+.navbar {
+	list-style-type: none;
+	list-style: none;
+}
+
+@media (min-width: 550px) {
+	.navbar {
+		margin: 0 0 0 0;
+		padding-left: 0;
+	}
+	.navbar > ol > li {
+		display: inline-block;
+		margin-right: 3%;
+		margin-bottom: 0;
+	}
+}
+
+
+/*.navbar > ol > li::after {
+	display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}*/

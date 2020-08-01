@@ -1,0 +1,21 @@
+{
+	"sponsors": [
+		{
+			"site": "https://www.macengsociety.ca/",
+			"description": "McMaster Engineering Society",
+			"image": "/img/sponsors/MES.png"
+		},
+		
+		{
+			"site": "https://www.mcmaster.ca/",
+			"description": "McMaster University",
+			"image": "/img/sponsors/McMaster.png"
+		},
+		
+		{
+			"site": "https://www.eng.mcmaster.ca/sept/",
+			"description": "W. Booth School of Engineering Practice and Technology",
+			"image": "/img/sponsors/WBooth-SEPT.png"
+		}
+	]
+}

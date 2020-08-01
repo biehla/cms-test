@@ -1,0 +1,15 @@
+---
+layout: template.njk
+title: Sponsors
+---
+
+<h1>Sponsors</h1>
+
+
+
+{% for sponsor in sponsors.sponsors %}
+	<a href="{{ sponsor.site | url }}"><img src="{{ sponsor.image | url }}" alt="{{ sponsor.description }}" class="sponsLogo"></a>
+{% endfor %}
+
+
+<!-- <a href="https://www.eng.mcmaster.ca/sept/"><img src="/img/sponsors/WBooth-SEPT.png" alt="W. Booth School of Engineering Practice and Technology"></a> -->
