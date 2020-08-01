@@ -4,6 +4,7 @@
   "description": "",
   "main": ".eleventy.js",
   "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
     "eleventy-plugin-lazyimages": "^2.0.1",
     "eleventy-plugin-typeset": "^1.0.0"
   },
