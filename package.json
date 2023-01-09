@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^1.0.2",
     "eleventy-plugin-lazyimages": "^2.0.1",
     "eleventy-plugin-typeset": "^1.0.0"
   },
